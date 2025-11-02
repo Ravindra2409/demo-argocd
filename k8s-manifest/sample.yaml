@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-demo
-  namespace: demo
+  namespace: rbsargocd
 spec:
   replicas: 2
   selector:
